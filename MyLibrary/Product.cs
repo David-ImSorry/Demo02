@@ -14,12 +14,12 @@ namespace MyLibrary
         public decimal UnitPrice => unitPrice;
         public int UnitsInStock => unitsInStock;
 
-        public bool Discontinued { get; private set; }
+        public bool Discontinued {  get; private set; }
 
-        public void SetDiscontinued() =>
+        public void SetDiscontinued() => 
             Discontinued = true;
-
-        public bool GetStatus() =>
+        
+        public bool GetStatus() => 
             Discontinued;
 
     }
